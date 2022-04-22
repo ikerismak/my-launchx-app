@@ -4,7 +4,9 @@
   "description": "��#\u0000 \u0000m\u0000y\u0000-\u0000l\u0000a\u0000u\u0000n\u0000c\u0000h\u0000x\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ikerismak/my-launchx-app/issues"
   },
-  "homepage": "https://github.com/ikerismak/my-launchx-app#readme"
+  "homepage": "https://github.com/ikerismak/my-launchx-app#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
 }
